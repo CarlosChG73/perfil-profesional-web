@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<!-- Indica al navegador que este documento usa HTML5 -->
+
+<html lang="es">
+  <!-- Elemento raíz del documento -->
+  <!-- lang="es" indica que el idioma principal del contenido es español -->
+
+  <head>
+    <!-- ===================================================== -->
+    <!-- CONFIGURACIÓN GENERAL DEL DOCUMENTO                   -->
+    <!-- ===================================================== -->
+
+    <meta charset="UTF-8" />
+    <!-- Permite usar correctamente acentos, eñes y caracteres especiales -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Hace que la página se adapte correctamente a móviles y tablets -->
+
+    <title>Perfil Profesional Web | Carlos Alberto Chávez Gutiérrez</title>
+    <!-- Título visible en la pestaña del navegador -->
+
+    <link rel="icon" href="assets/img/favicon/favicon.ico" type="image/x-icon" />
+    <!-- Favicon principal del sitio -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicon/favicon-16x16.png"
+    />
+    <!-- Favicon PNG de 16x16 -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicon/favicon-32x32.png"
+    />
+    <!-- Favicon PNG de 32x32 -->
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/img/favicon/apple-touch-icon.png"
+    />
+    <!-- Ícono para dispositivos Apple -->
+
+    <link rel="manifest" href="assets/img/favicon/site.webmanifest" />
+    <!-- Archivo de configuración para navegadores modernos -->
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Enlace al archivo CSS principal del proyecto -->
+  </head>
+
+  <body>
+    <!-- ===================================================== -->
+    <!-- HEADER: PARTE SUPERIOR DEL SITIO                      -->
+    <!-- ===================================================== -->
+
+    <header>
+      <!-- Bloque de identidad del sitio -->
+      <div class="marca-sitio">
+        <!-- Enlace interno al inicio de la página -->
+        <a href="#inicio">
+          <span>Carlos Alberto Chávez Gutiérrez</span>
+          <!-- Nombre visible del perfil profesional web -->
+        </a>
+      </div>
+
+      <!-- Control del menú hamburguesa -->
+      <input
+        type="checkbox"
+        id="menu-toggle"
+        class="menu-toggle"
+        aria-label="Abrir menú principal"
+      />
+
+      <!-- Botón visual del menú hamburguesa -->
+      <label for="menu-toggle" class="menu-button" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Navegación principal del sitio -->
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#perfil">Perfil</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#evidencias">Evidencias</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ===================================================== -->
+    <!-- MAIN: CONTENIDO PRINCIPAL DEL SITIO                   -->
+    <!-- ===================================================== -->
+
+    <main>
+      <!-- Sección de inicio o presentación principal -->
+      <section id="inicio">
+        <!-- Contenedor general del hero: texto + imagen -->
+        <div class="inicio-contenido">
+          <!-- Bloque de texto principal -->
+          <div class="inicio-texto">
+            <h1>Carlos Alberto Chávez Gutiérrez</h1>
+            <!-- Título principal de toda la página -->
+
+            <p>
+              Perfil profesional orientado a TI, soporte digital y tecnologías
+              web.
+            </p>
+            <!-- Subtítulo breve del perfil -->
+
+            <p>
+              Egresado de Ingeniería en Sistemas Computacionales, con enfoque en
+              tecnologías web, documentación operativa y organización de
+              contenidos en entornos digitales.
+            </p>
+            <!-- Presentación breve del perfil -->
+
+            <p>
+              <a href="#evidencias">Ver evidencias</a>
+              <a href="#contacto">Contacto</a>
+            </p>
+            <!-- Enlaces principales de acción -->
+          </div>
+
+          <!-- Bloque de imagen profesional -->
+          <div class="inicio-imagen">
+            <img
+              src="assets/img/perfil/carlos-chavez-perfil.png"
+              alt="Fotografía profesional de Carlos Alberto Chávez Gutiérrez"
+              title="Carlos Alberto Chávez Gutiérrez"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de perfil profesional -->
+      <section id="perfil">
+        <h2>Perfil profesional</h2>
+
+        <p>
+          Soy egresado de Ingeniería en Sistemas Computacionales (UVEG), con
+          formación en tecnologías web y fundamentos de TI, orientado a soporte
+          y operación de entornos digitales.
+        </p>
+
+        <p>
+          Actualmente continúo fortaleciendo mi práctica en integración de
+          contenidos en HTML, documentación operativa, seguimiento de
+          solicitudes y atención escrita a usuarios, con interés en seguir
+          desarrollándome dentro del área tecnológica.
+        </p>
+
+        <p>
+          Mi enfoque está en construir soluciones claras, funcionales y bien
+          documentadas, que me permitan aportar valor mientras consolido
+          experiencia y evidencia técnica.
+        </p>
+      </section>
+
+      <!-- Sección de habilidades clave -->
+      <section id="habilidades">
+        <h2>Habilidades clave</h2>
+
+        <article>
+          <h3>Web y contenidos</h3>
+          <p>Integración de contenidos en HTML.</p>
+          <p>CSS orientado a presentación clara y consistente.</p>
+          <p>Estructura semántica, enlaces y organización del contenido.</p>
+          <p>Maquetación ligera y enfoque responsive.</p>
+        </article>
+
+        <article>
+          <h3>Soporte y operación</h3>
+          <p>Diagnóstico inicial de incidencias en entornos web.</p>
+          <p>Documentación de pasos realizados y seguimiento.</p>
+          <p>Comunicación escrita para soporte a usuarios.</p>
+          <p>Registro y organización de incidencias en trabajo remoto.</p>
+        </article>
+
+        <article>
+          <h3>Herramientas</h3>
+          <p>Google Drive para gestión de materiales y archivos.</p>
+          <p>Google Docs y Word para guías e instructivos.</p>
+          <p>Google Sheets y Excel para registro y seguimiento.</p>
+          <p>Correo y trabajo colaborativo en entornos remotos.</p>
+        </article>
+      </section>
+
+      <!-- Sección de experiencia transferible -->
+      <section id="experiencia">
+        <h2>Experiencia transferible</h2>
+
+        <article>
+          <h3>Instituto Nacional de Bellas Artes y Literatura (INBAL) | CDMX</h3>
+
+          <p>
+            <strong>Puesto:</strong> Acompañante de técnica contemporánea
+            (apoyo musical)
+          </p>
+
+          <p><strong>Periodo:</strong> 2021 - Actual</p>
+
+          <p>
+            Colaboración con docentes en entorno educativo institucional para
+            apoyar el desarrollo de sesiones y actividades.
+          </p>
+
+          <p>
+            Organización de materiales y referencias de trabajo para apoyar la
+            planeación, ejecución y seguimiento de sesiones.
+          </p>
+
+          <p>
+            Uso funcional de Google Classroom y correo institucional para la
+            gestión de materiales y seguimiento con estudiantes.
+          </p>
+
+          <p>
+            Comunicación clara con estudiantes y equipo académico, adaptando el
+            lenguaje según el contexto y la necesidad.
+          </p>
+
+          <p>
+            Coordinación con equipo institucional para cumplir tiempos,
+            requerimientos y ajustes en el proceso formativo.
+          </p>
+        </article>
+      </section>
+
+      <!-- Sección de evidencias y proyectos -->
+      <section id="evidencias">
+        <h2>Evidencias y proyectos</h2>
+
+        <!-- Proyecto 1 -->
+        <article>
+          <h3>Proyecto 1 | Perfil profesional web</h3>
+          <p>
+            Página desarrollada en HTML y CSS para presentar perfil técnico,
+            habilidades, experiencia transferible y evidencias de trabajo.
+          </p>
+          <p><strong>Tecnologías:</strong> HTML5, CSS3</p>
+          <p><strong>Estado:</strong> En actualización</p>
+
+          <div class="acciones-proyecto">
+            <a href="#" class="boton-proyecto deshabilitado" aria-disabled="true">
+              Ver proyecto
+            </a>
+          </div>
+        </article>
+
+        <!-- Proyecto 2 -->
+        <article>
+          <h3>Proyecto 2 | Comunicado interno institucional simulado</h3>
+          <p>
+            Página desarrollada en HTML y CSS para presentar información
+            académica y operativa de forma clara, con jerarquía visual,
+            navegación interna, diseño responsive e integración de contenido
+            institucional simulado.
+          </p>
+          <p><strong>Tecnologías:</strong> HTML5, CSS3</p>
+          <p><strong>Estado:</strong> Terminado</p>
+
+          <div class="acciones-proyecto">
+            <a href="#" class="boton-proyecto deshabilitado" aria-disabled="true">
+              Ver proyecto
+            </a>
+          </div>
+        </article>
+
+        <!-- Proyecto 3 -->
+        <article>
+          <h3>Proyecto 3 | Guía breve de seguimiento académico y operativo</h3>
+          <p>
+            Documento profesional orientado al registro y seguimiento de
+            incidencias académicas y operativas en una institución educativa
+            simulada, elaborado como evidencia de documentación, organización
+            institucional y comunicación escrita.
+          </p>
+          <p><strong>Tecnologías:</strong> Documentación operativa, PDF</p>
+          <p><strong>Estado:</strong> Terminado</p>
+
+          <div class="acciones-proyecto">
+            <a href="#" class="boton-proyecto deshabilitado" aria-disabled="true">
+              Ver proyecto
+            </a>
+          </div>
+        </article>
+      </section>
+
+      <!-- Sección de contacto -->
+      <section id="contacto">
+        <h2>Contacto</h2>
+
+        <p>
+          Este perfil profesional web forma parte de mi proceso de desarrollo y
+          consolidación de evidencias técnicas en entornos web y soporte
+          digital.
+        </p>
+
+        <ul>
+          <li>
+            <strong>Nombre:</strong>
+            Carlos Alberto Chávez Gutiérrez
+          </li>
+
+          <li>
+            <strong>Ubicación:</strong>
+            CDMX, Ciudad de México
+          </li>
+
+          <li>
+            <strong>Formación:</strong>
+            Egresado de Ingeniería en Sistemas Computacionales (UVEG)
+          </li>
+
+          <li>
+            <strong>Correo:</strong>
+            <a href="mailto:carcha0573@gmail.com">carcha0573@gmail.com</a>
+          </li>
+
+          <li>
+            <strong>LinkedIn:</strong>
+            <a
+              href="https://linkedin.com/in/carloschavezg73"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              linkedin.com/in/carloschavezg73
+            </a>
+          </li>
+
+          <li>
+            <strong>GitHub:</strong>
+            <a href="#" aria-disabled="true">Próximamente disponible</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Botón de regreso rápido al inicio -->
+    <a
+      href="#inicio"
+      class="boton-volver-arriba"
+      aria-label="Volver al inicio"
+      title="Volver arriba"
+    >
+      ↑
+    </a>
+
+    <!-- ===================================================== -->
+    <!-- FOOTER: CIERRE DEL SITIO                              -->
+    <!-- ===================================================== -->
+
+    <footer>
+      <p>Carlos Alberto Chávez Gutiérrez | Perfil profesional web</p>
+      <p>Versión inicial en HTML y CSS</p>
+    </footer>
+  </body>
+</html>
